@@ -1,5 +1,8 @@
 # Docker Workshop
 
+## Prerequisite for Windows Machine!!!
+- [Prerequisite for Windows Machine](pre-windows.md)
+
 ## Labs
 
 - [Full hands-on lab](full-lab.md)
