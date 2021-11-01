@@ -1,6 +1,7 @@
 # Docker Workshop
 
-## Prerequisite for Windows Machine!!!
+## Prerequisite 
+- docker hub user (https://hub.docker.com/) (if you don't have docker hub account)
 - [Prerequisite for Windows Machine](pre-windows.md)
 
 ## Labs
