@@ -40,10 +40,10 @@ ___
 
 Apart from Docker Hub, Docker can also pull container images from other private and public registries or repositories.
 
-- Pulling an Open JDK 8 container image from [quay.io](quay.io).
+- Pulling an Redis 5 on Centos7 container image from [quay.io](quay.io).
 
   ```sh
-  docker image pull quay.io/public/openjdk:8-slim
+  docker image pull quay.io/centos7/redis-5-centos7
   ```
 
 ___
