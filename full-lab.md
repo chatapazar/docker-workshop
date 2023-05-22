@@ -764,7 +764,7 @@ ___
 - Run a container with the image you have just built.
 
   ```sh
-  docker container run -d -p 1234:80 --name mywebsite <your Docker Hub account>/node-website:1.0
+  docker container run -d -p 1234:8080 --name mywebsite <your Docker Hub account>/node-website:1.0
   ```
 
 - Use `curl` command to verify that you can access to the website running in the container.
