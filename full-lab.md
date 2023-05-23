@@ -36,14 +36,15 @@ By default, Docker will be pulling container images from Docker Hub if you didn'
 
 ___
 
-### - Pull container image from other registries
+### - Pull container image from other registries (Optional)
 
 Apart from Docker Hub, Docker can also pull container images from other private and public registries or repositories.
 
-- Pulling an Redis 5 on Centos7 container image from [quay.io](quay.io).
+- Pulling an Redis 5 on Centos7 container image from [quay.io](quay.io). (required user/password for login to quay.io)
 
   ```sh
-  docker image pull quay.io/centos7/redis-5-centos7
+  docker login -u <username> -p <password>
+  docker image pull quay.io/quay/busybox
   ```
 
 ___
