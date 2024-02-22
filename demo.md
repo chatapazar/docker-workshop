@@ -29,7 +29,7 @@ ___
 - Pulling an Open JDK 8 container image from [quay.io](quay.io).
 
   ```sh
-  docker image pull docker pull quay.io/chatapazar1/backend:v1
+  docker image pull quay.io/chatapazar1/backend:v1
   ```
 
 ___
@@ -387,13 +387,13 @@ ___
 - Run a container with the image you have just built.
 
   ```sh
-  docker container run -d -p 1234:80 --name mywebsite rhworkshop/node-website:1.0
+  docker container run -d -p 9090:8080 --name mywebsite rhworkshop/node-website:1.0
   ```
 
 - Use `curl` command to verify that you can access to the website running in the container.
 
   ```sh
-  curl http://localhost:1234
+  curl http://localhost:9090
   ```
 
 ___
@@ -416,17 +416,16 @@ ___
 
 ### - Pushing container image to Docker Hub
 
-- Login to Docker hub with your Docker Hub username and password.
+- Login to Docker hub with your Docker Hub username and password. (required dockerhub account)
 
   ```sh
   docker login
   ```
 
-- Push the container image to Docker Hub
+- Push the container image to Docker Hub (change and tag your image to dockerhub account such as chatapazar/node-website:1.0)
 
   ```sh
-  docker image push rhworkshop/node-website:1.0
-  docker image push rhworkshop/node-website:latest
+  docker image push chatapazar/node-website:1.0
   ```
 
 - Go to [Docker Hub website](https://hub.docker.com/) to verify the container image and tags.
